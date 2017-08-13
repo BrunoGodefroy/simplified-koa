@@ -1,0 +1,11 @@
+{
+  "name": "simplified-koa",
+  "version": "1.0.0",
+  "description": "Simplified version of koa for learning purposes",
+  "main": "koa.js",
+  "author": "BrunoGodefroy <brunog@theodo.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
+}
