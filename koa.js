@@ -36,13 +36,13 @@ app.use(function* (next) {
   yield next()
   const ms = new Date - start
   console.log('Request time: %d ms', ms)
-});
+})
 
 // response
 
 app.use(function* () {
   console.log('Setting up body...')
   this.body = 'Hello World'
-});
+})
 
 app.listen(3000)
